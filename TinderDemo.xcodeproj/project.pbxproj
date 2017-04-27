@@ -12,6 +12,8 @@
 		C982CA201EAF0609008D6649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C982CA1E1EAF0609008D6649 /* Main.storyboard */; };
 		C982CA221EAF0609008D6649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C982CA211EAF0609008D6649 /* Assets.xcassets */; };
 		C982CA251EAF0609008D6649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C982CA231EAF0609008D6649 /* LaunchScreen.storyboard */; };
+		C982CA2D1EAF06D5008D6649 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C982CA2C1EAF06D5008D6649 /* CardsViewController.swift */; };
+		C9E7F0281EB1827100A57D40 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E7F0271EB1827100A57D40 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C982CA211EAF0609008D6649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C982CA241EAF0609008D6649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C982CA261EAF060A008D6649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C982CA2C1EAF06D5008D6649 /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		C9E7F0271EB1827100A57D40 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				C982CA1A1EAF0609008D6649 /* AppDelegate.swift */,
 				C982CA1C1EAF0609008D6649 /* ViewController.swift */,
 				C982CA1E1EAF0609008D6649 /* Main.storyboard */,
+				C982CA2C1EAF06D5008D6649 /* CardsViewController.swift */,
+				C9E7F0271EB1827100A57D40 /* ProfileViewController.swift */,
 				C982CA211EAF0609008D6649 /* Assets.xcassets */,
 				C982CA231EAF0609008D6649 /* LaunchScreen.storyboard */,
 				C982CA261EAF060A008D6649 /* Info.plist */,
@@ -138,6 +144,8 @@
 			files = (
 				C982CA1D1EAF0609008D6649 /* ViewController.swift in Sources */,
 				C982CA1B1EAF0609008D6649 /* AppDelegate.swift in Sources */,
+				C9E7F0281EB1827100A57D40 /* ProfileViewController.swift in Sources */,
+				C982CA2D1EAF06D5008D6649 /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				C982CA2B1EAF060A008D6649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
